@@ -237,6 +237,8 @@ address {
     background-color: #188CE8;
 }
 
+/* Модальне Вікно */
+
 .backdrop {
     position: fixed;
     top: 0;
@@ -388,6 +390,10 @@ address {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     padding-left: 23px;
+}
+
+.contract-link {
+    text-decoration: underline;
 }
 
 .form-submit {
