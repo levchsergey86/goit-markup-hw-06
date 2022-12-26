@@ -56,6 +56,11 @@
                 <div data-modal class="backdrop is-hidden">
                     <div class="modal">
                         <div class="modal-container">
+                            <button data-modal-close type="button" class="close-button">
+                                <svg class="modal-svg">
+                                    <use href="./images/symbol-defs.svg#icon-cross"></use>
+                                </svg>
+                            </button>
                             <h2 class="form-head">Залиште свої дані, ми вам передзвонимо</h2>
                         <form class="form" autocomplete="on">
                             <div class="form-field">
@@ -100,7 +105,7 @@
                                     </svg>  
                                 </div>  
                             </div>
-                            <div>
+                            <div class="modal-textarea">
                                 <label for="coment" 
                                         class="form-label">Коментар</label>
                                 <textarea name="Coment" 
@@ -124,11 +129,6 @@
                             </div>
                             <button type="submit" class="form-submit">Відправити</button>
                         </form>
-                        <button data-modal-close type="button" class="close-button">
-                            <svg class="modal-svg">
-                                <use href="./images/symbol-defs.svg#icon-cross"></use>
-                            </svg>
-                        </button>
                         </div>
                     </div>
                 </div>
@@ -265,7 +265,7 @@
                                 </li>
                                 <li class="social-item">
                                     <a class="social-logo-link" href="">
-                                        <svg class="social-logo" width="10" height="20">
+                                        <svg class="social-logo" width="20" height="20">
                                             <use href="./images/symbol-defs.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
@@ -302,7 +302,7 @@
                             </li>
                             <li class="social-item">
                                 <a class="social-logo-link" href="">
-                                    <svg class="social-logo" width="10" height="20">
+                                    <svg class="social-logo" width="20" height="20">
                                         <use href="./images/symbol-defs.svg#icon-facebook"></use>
                                     </svg>
                                 </a>
@@ -339,7 +339,7 @@
                             </li>
                             <li class="social-item">
                                 <a class="social-logo-link" href="">
-                                    <svg class="social-logo" width="10" height="20">
+                                    <svg class="social-logo" width="20" height="20">
                                         <use href="./images/symbol-defs.svg#icon-facebook"></use>
                                     </svg>
                                 </a>
@@ -452,8 +452,8 @@
                 </ul>
             </div>
             <div class="subscription">
-                <form action="">
-                    <h3 class="subscription-header">Підпишіться на розсилку</h3>
+                <h3 class="subscription-header">Підпишіться на розсилку</h3>
+                <form class="footer-form">
                     <input class="footer-input" type="email" name="subscription-email" id="subscription-email" placeholder="E-mail">
                     <button class="subscription-button">
                         Підписатися
