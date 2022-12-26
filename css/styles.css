@@ -257,10 +257,6 @@ address {
     pointer-events: none;
 }
 
-.backdrop.is-hidden .modal {
-    transform: translate(-50%, -50%) scale(0.5);
-}
-
 .modal-container {
     position: absolute;
     min-width: 528px;
@@ -397,6 +393,7 @@ address {
 
 .contract-link {
     text-decoration: underline;
+    color: var(--accent-color);
 }
 
 .form-submit {
